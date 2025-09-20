@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from backend.app.core.config import settings
-from backend.app.db.session import engine
+from app.core.config import settings
+from app.db.session import engine
 from sqlmodel import SQLModel
 from backend.app.api.routers import auth, users, students, payments
 
