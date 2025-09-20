@@ -1,5 +1,5 @@
-fastapi>=0.95
-uvicorn[standard]>=0.20
+fastapi
+uvicorn[standard]
 sqlmodel>=0.0.8
 alembic>=1.10
 python-jose[cryptography]>=3.3.0
